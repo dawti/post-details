@@ -1,0 +1,82 @@
+a.btn.btn-outline-primary.btn-round.font-12.create-post.float-right.blue-create-post {
+    color: #2391bf;
+  }
+  a.btn.btn-outline-primary.btn-round.font-12.create-post.float-right.blue-create-post:hover {
+    color: #fff;
+  }
+  section .section-header .sec-heading.post-line:after {
+    background-color: #d716a5;
+    padding: 0 20px;
+    content: " ";
+    position: absolute;
+    bottom: -7px;
+    width: 94%;
+    height: 3px;
+    left: 0;
+  }
+  
+  .bg-img-btn.active {
+    background-image: url("./images/btn-blue.png"); /* The image used */
+    background-color: transparent; /* Used if the image is unavailable */
+  
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 100% 98%; /* Resize the background image to cover the entire container */
+    color: #2391bf !important;
+  }
+  .bg-img-btn {
+    width: 156px;
+    text-align: center;
+    height: 62px;
+    line-height: 35px;
+  }
+  
+  .nav-pills .nav-link.active:after {
+    border-top: 0px solid #2490be;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1px;
+    bottom: 0px;
+  }
+  
+  .nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: transparent;
+  }
+  
+  /*.nav-pills .nav-link{position: relative;padding: 10px 45px;}
+  .nav-pills .nav-link:hover, .nav-pills .nav-link:focus{transition: none !important;}
+  .nav-pills .nav-link.active{background: transparent;border: 2px solid #2391bf;padding: 10px 45px;border-radius: 22px;color:#2391bf;}
+  .nav-pills .nav-link.active:after, .nav-pills .nav-link.active:before{top: 100%;left: 50%;border: solid transparent;content: " ";height: 0;width: 0;position: absolute;pointer-events: none;}
+  .nav-pills .nav-link.active:after{border-color: rgba(136, 183, 213, 0);border-top-color:#F3F4F6;border-width: 10px;margin-left: -12px;}
+  .nav-pills .nav-link.active:before{ border-color: rgba(194, 225, 245, 0);border-top-color: #2391bf;border-width: 12px;margin-left: -14px;}
+  */
+  .leftsidelist {
+    padding: 14px 0px;
+  }
+  .leftsidelist {
+    transition: 0.4s;
+  }
+  .leftsidelist:hover {
+    color: #007bff;
+    background-color: #151a29;
+    transition: 0.2s;
+  }
+  
+  /* img {
+    margin-right: 10px;
+    margin-left: 10px;
+  } */
+  
+  .leftsideimg img {
+    margin-right: 10px;
+    margin-left: 10px;
+  }

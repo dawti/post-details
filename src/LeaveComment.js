@@ -22,13 +22,14 @@ const LeaveComment = ({commentlist}) => {
                     </div>
                     {
                         comments.map((comment)=>
-                        <Comment key={comment.id} userdp={require("./images/auther1.jpg").default} name={comment.name} time={comment.time} comment={comment.comment} like={comment.like} dislike={comment.dislike}/>)
+                        <Comment key={comment.id} userdp={comment.userdp} name={comment.name} time={comment.time} comment={comment.comment} like={comment.like} dislike={comment.dislike}/>)
                     }
-                    <Comment userdp={require("./images/auther1.jpg").default} name="Samantha Thomas" 
+                   { /*<Comment userdp={require("./images/auther1.jpg").default} name="Samantha Thomas" 
                     time="2 minutes ago" comment="Sample individual comment." like="1K" dislike="400"
-                    />
+                    />*/}
                     
-                    
+                    {/**                         <Comment key={comment.id} userdp={require("./images/auther1.jpg").default} name={comment.name} time={comment.time} comment={comment.comment} like={comment.like} dislike={comment.dislike}/>)
+*/}
                    
                 </div>
             </div>

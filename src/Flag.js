@@ -13,7 +13,7 @@ const Flag=()=>(
          <h4 className="modal-title m-auto modal-sec-heading text-center mt-0 pt-0">Report Inappropriate</h4>
         <form action="/action_page.php" className="pt-5 p-3 radiobtn">
           <div className="form-check pb-3">
-               <input type="radio" className="form-check-input" id="radio1" name="optradio" value="option1" checked/>
+               <input type="radio" className="form-check-input" id="radio1" name="optradio" value="option1" defaultChecked/>
                <label className="form-check-label selected-label" htmlFor="radio1">Intellectual Property </label>  
           </div>
           <div className="form-check pb-3">
