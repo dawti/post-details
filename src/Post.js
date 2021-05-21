@@ -29,7 +29,7 @@ const Post = () => (
               <p className="author">Posted by <a href="#">James_007 </a>2 hours ago</p>
               <div className="tags mb-4"> <a href="#" className="btn btn-tags selected mr-1"> #COLLEGE </a> <a href="#" className="btn btn-tags mr-1"> #EDUCATION </a> <a href="#" className="btn btn-tags mr-1"> #SCHOOL </a> <a href="#" className="btn btn-language float-right"> English </a> </div>
               {/*<img src={audio} alt="audio" className="img-fluid mb-4" />*/}
-              <ReactAudioPlayer  src=" https://www.learningcontainer.com/wp-content/uploads/2020/02/Sample-OGG-File.ogg"   autoPlay  controls/>
+              <ReactAudioPlayer  src=" https://www.learningcontainer.com/wp-content/uploads/2020/02/Sample-OGG-File.ogg"   controls/>
               <div className="popup-images justify-content-start"> <a href="#" className="m-1"> <img src={pic1} alt="pic" className="brd-rounded5 mb-2" /> </a> <a href="#" className="m-1"> <img src={pic2} alt="pic" className="brd-rounded5 mb-2" /> </a> <a href="#" className="m-1"> <img src={pic3} alt="pic" className="brd-rounded5 mb-2" /> </a> <a href="#" className="m-1"> <img src={pic4} alt="pic" className="brd-rounded5 mb-2" /> </a> </div>
             </div>
           </div>

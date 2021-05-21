@@ -1,11 +1,4 @@
 import p1 from "./images/author1.jpg";
-
-import p5 from "./images/icon-like.png";
-import p6 from "./images/icon-dislike.png";
-import p7 from "./images/icon-comment.png";
-import p8 from "./images/icon-forward.png";
-import p9 from "./images/icon-pin.png";
-import p0 from "./images/icon-flag.png";
 import Responses from "./Responses";
 
 

@@ -1,7 +1,7 @@
 import choose from "./images/choose.png";
 
 const CreateTopic=()=>(
-    <div className="modal fade" id="createTopic" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div className="modal fade" id="createTopic" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div className="modal-dialog modal-dialog-scrollable modal-lg" role="document">
     <div className="modal-content">
       <div className="modal-header border-bottom-0">
@@ -58,7 +58,7 @@ const CreateTopic=()=>(
               <label htmlFor="exampleFormControlTextarea1">Add topic image</label>
               <div className="card-box-dotted p-5 text-center"> <a href=""><img src={choose} alt="choose" className="img-fluid mb-4"/></a>
                 <div> <a className='btn btn-outline-primary btn-round font-12' href='javascript:;'> Choose File...
-                  <input type="file" style={{position:"absolute",'z-index':2,top:0,left:0,filter: "alpha(opacity=0)",'-ms-filter':"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)",'opacity':0,'background-color':'transparent',color:'transparent'}} name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'/>
+                  <input type="file" style={{position:"absolute",zIndex:2,top:0,left:0,filter: "alpha(opacity=0)",msFilter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)",opacity:0,backgroundColor:'transparent',color:'transparent'}} name="file_source" size="40"  onChange='$("#upload-file-info").html($(this).val());'/>
                   </a> &nbsp; <span className='label label-info' id="upload-file-info"></span> </div>
               </div>
               <div className="form-check-inline mt-3">
@@ -74,7 +74,7 @@ const CreateTopic=()=>(
             <div className="col-6">
               
               <label htmlFor="exampleFormControlTextarea1">Labels <span className="font-blue">(Ex: #kochimetro #kochi)</span> </label>
-              <div className="card-box p-5 text-center bg-skyblue" style={{'min-height': "212px"}}> </div>
+              <div className="card-box p-5 text-center bg-skyblue" style={{minHeight: "212px"}}> </div>
               <div className="mt-4 float-right">
                 <a href=""><button type="button" className="btn prm-btn btn-round font-12 mr-1">CREATE</button></a>
                 <a href=""><button type="button" className="btn btn-outline-primary btn-round font-12"><b>SAVE DRAFT</b></button></a>

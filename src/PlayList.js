@@ -1,3 +1,7 @@
+const myFunction=()=>{
+  console.log("key up");
+}
+
 const PlayList=()=>(
     <div className="modal fade p-5" id="myAddToPlayList">
   <div className="modal-dialog modal-dialog-centered modal-lg p-5">
@@ -13,7 +17,7 @@ const PlayList=()=>(
       <div className="modal-body model-content-one pb-5">
         <div>
           <h5>Playlist Tittle</h5>
-          <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Playlist Name" title="Type in a name" className="form-control"/>
+          <input type="text" id="myInput" onKeyUp={myFunction()} placeholder="Playlist Name" title="Type in a name" className="form-control"/>
           <div className="text-center m-2 pt-3"> <a href="#">
             <div className="btn btn-round prm-btn font-12 pl-5 pr-5">SAVE</div>
             </a> </div>

@@ -6,7 +6,7 @@ import stop from "./images/red-stop-icon.png";
 import choose from "./images/choose.png";
 
 const CreatePost=()=>(
-    <div className="modal fade" id="createPost" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div className="modal fade" id="createPost" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div className="modal-dialog modal-dialog-scrollable modal-lg" role="document">
     <div className="modal-content p-4">
       <div className="modal-header border-bottom-0">
