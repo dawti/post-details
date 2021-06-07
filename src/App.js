@@ -65,11 +65,11 @@ function App() {
          </Route>
          
          <Route path="/topic-details">
-         <section class="main">
-                    <div class="container-fluid">
-                        <div class="row clearfix">
+         <section className="main">
+                    <div className="container-fluid">
+                        <div className="row clearfix">
                             {/* <!-- section --> */}
-                            <div class="col-md-9 pt-5">
+                            <div className="col-md-9 pt-5">
                             
                                 <Bodyhead />
                                 <Body />
@@ -94,7 +94,7 @@ function App() {
                 </section>
          </Route>
          <Route path="/">
-           <Redirect to="/station-pins"/>
+           <Redirect to="/station-posts"/>
          </Route>
        </Switch>
     </Router>

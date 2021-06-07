@@ -58,9 +58,9 @@ const Flag=()=>(
           </div>
         </form>
         <div className="d-flex justify-content-center">
-          <div className="text-center m-2"> <a href=""> <a>
+          <div className="text-center m-2"> <a href=""> 
             <div className="btn btn-round prm-btn font-12">REPORT</div>
-            </a></a> </div>
+            </a> </div>
           <div className="text-center m-2" id="radio-btn-border"> <a href="#">
             <div className="btn btn-outline-primary btn-round font-12">CANCEL</div>
             </a> </div>

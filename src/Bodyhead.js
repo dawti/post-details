@@ -20,14 +20,14 @@ function Bodyhead() {
                             </div>
                             <div className="col-md-10 col-12">
                                 <span className="float-right pt-3">
-                                    <a href="#" class="btn btn-round bg-white btn-blue-text font-12 mr-2"> <b>Follow</b></a>
+                                    <a href="#" className="btn btn-round bg-white btn-blue-text font-12 mr-2"> <b>Follow</b></a>
                                     <a href="#"><img src={whitecircle} alt="" className="ml-3" /></a>
-                                    <a href="#" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><img src={threedots} alt="" class="ml-4" /></a>
+                                    <a href="#" className="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><img src={threedots} alt="" className="ml-4" /></a>
                                     {/* <!-- User Dropdown --> */}
                                     <div className="dropdown-menu dropdawnPost dropdown-post" aria-labelledby="dropdownMenuLink">
-                                        <ul clasNclassNames="list-unstyled pl-3">
-                                            <li className="pt-4 "><a href="#"><img src={share1} alt="" class="pl-3 pr-3" />&nbsp;&nbsp;Share </a></li>
-                                            <li className="pt-4"><a href="#"><img src={repost1} alt="" class="pl-3 pr-3" />&nbsp;&nbsp;Report </a></li>
+                                        <ul className="list-unstyled pl-3">
+                                            <li className="pt-4 "><a href="#"><img src={share1} alt="" className="pl-3 pr-3" />&nbsp;&nbsp;Share </a></li>
+                                            <li className="pt-4"><a href="#"><img src={repost1} alt="" className="pl-3 pr-3" />&nbsp;&nbsp;Report </a></li>
                                         </ul>
                                     </div>
                                     {/* <!--//--> */}
@@ -57,13 +57,13 @@ function Bodyhead() {
                         <div className="media p-3">
                             <div className="media-body">
                                 <div className="article-title border-bottom-0">
-                                    <h5 className="pt-4"><img src={author1} alt="" className="mr-3 rounded-circle" style={{ width: "60px;" }} /> John Doe</h5>
+                                    <h5 className="pt-4"><img src={author1} alt="" className="mr-3 rounded-circle" style={{ width: "60px" }} /> John Doe</h5>
                                 </div>
                                 <div className="article-body pt-0">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <a className="font-pink" href="#"><small><u>more...</u></small></a></p>
                                     <p className="author">Posted by <a href="#">James_007 </a>Sep 25 2020</p>
                                     {/* <!----> */}
-                                    <div className="tags mb-4"> <a href="#" class="btn btn-tags selected mr-1"> #COLLEGE </a> <a href="#" className="btn btn-tags mr-1"> #EDUCATION </a> <a href="#" className="btn btn-tags mr-1"> #SCHOOL </a></div>
+                                    <div className="tags mb-4"> <a href="#" className="btn btn-tags selected mr-1"> #COLLEGE </a> <a href="#" className="btn btn-tags mr-1"> #EDUCATION </a> <a href="#" className="btn btn-tags mr-1"> #SCHOOL </a></div>
                                     {/* <!--//-->  */}
                                 </div>
                             </div>
